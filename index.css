@@ -1,0 +1,510 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;200&family=Satisfy&family=Source+Code+Pro:ital,wght@1,200;1,300&family=Teko:wght@400;500;600;700&display=swap');
+
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+    
+}
+
+.frontpage
+{
+    background-image: url('https://images.pexels.com/photos/785429/pexels-photo-785429.jpeg?cs=srgb&dl=pexels-lukas-mayer-785429.jpg&fm=jpg');
+    
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    height: 100vh;
+   
+}
+.container
+{
+    
+    width: 100%;
+    height: 100vh;
+     position: relative;
+     background-color: black;
+     
+    
+     
+    
+}
+
+
+
+
+nav
+{
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: transparent;
+    z-index: 100;
+    
+
+}
+nav .logo
+{
+    width: 150px;
+    margin-left: 8%;
+
+}
+nav ul li
+{
+    display: inline-block;
+    margin: 10px 30px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    
+}
+
+nav ul li a:hover
+
+{
+    color: rgb(9, 133, 96);
+}
+
+
+.home-content
+{
+    margin-left: 8%;
+    margin-top: 13%;
+    max-width: 600px;
+    
+
+
+ 
+}
+.home-content span
+{
+    color: rgb(9, 133, 96);
+}
+
+.home-content h3
+{
+    font-size: 18px;
+    color: white;
+    margin-bottom: 20px; 
+}
+.home-content h3 span
+{
+    color: rgb(9, 133, 96) ;
+}
+.home-content h1
+{
+    font-size: 50px;
+    color: white;
+    margin-bottom: 20px;
+    font-weight: 400;
+}
+
+.home-content p
+{
+
+    color: white;
+    margin-bottom: 20px;
+}
+
+
+.home-content a{
+    background-color: rgb(9, 133, 96);
+    padding: 10px 18px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    display: inline-block;
+    margin: 30px 0;
+    border-radius: 10px;
+}
+
+.home-content a:hover
+{
+background-color: rgb(6, 71, 49);
+}
+
+
+.about
+{
+   
+    /* background-color: rgb(0, 0, 0); */
+    color: white;
+    height: 100vh;
+    /* background-image: url('https://img.freepik.com/free-photo/modern-background-with-lines_1361-3533.jpg?size=626&ext=jpg&ga=GA1.1.1279480858.1694075682&semt=ais'); */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: rgb(19, 19, 19);
+
+    height: 100vh;
+}
+
+.about-img img
+ {
+    width: 60%;
+    margin-left: 18%;
+  margin-top: -70px;
+  /* border: 3px solid rgb(6, 71, 49); */
+ }
+
+
+.heading
+{
+margin-left: 607px;
+padding-top: 170px;
+
+}
+
+.heading h2
+{
+    font-size: 40px;
+    color: rgb(9, 133, 96) ;    
+
+    
+    margin-top: -40px;
+   
+}
+
+.heading h3
+{
+    font-size: 20px;
+    margin-top: 20px;
+   
+   
+}
+
+.about-text p{
+    line-height: 25px;
+    font-size: 15px;
+    color: rgb(218, 211, 211);
+}
+
+.about-content
+{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+ 
+
+
+.about-text
+{
+    font-size: 18px;
+    font-weight: 500;
+    text-align: justify;
+  
+}
+
+.info
+{
+    
+    line-height: 30px;
+    margin-top: -15px;
+    font-size: 15px;
+    color: rgb(218, 211, 211);
+   
+}
+
+.about-text p{
+    
+    margin: 1rem 0 1.4rem;
+    margin-right: 100px;
+}
+
+
+.heading_skill
+{
+width: 100%;
+
+text-align: center;
+padding-top: 60px;
+background: rgb(29, 29, 29);
+}
+.heading_skill h2{
+    font-size: 40px;
+    color: rgb(9, 133, 96) ;
+}
+
+.heading_skill p{
+    margin-top: 30px;
+    color: #fff;
+   
+}
+
+.skill
+{
+    background: rgb(29, 29, 29);
+}
+.skills
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 72vh;
+    
+}
+.container1
+{
+    
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 40px;
+
+}
+
+.container1 .progress
+{
+    position: relative;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    color: #fff;
+    background: #9e9191 linear-gradient(to right, transparent 50%, var(--clr) 0);
+}
+ 
+.container1 .progress h3{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-size: 2.5em;
+    z-index: 1;
+    font-weight: 500;
+}
+.container1 .progress h3 span{
+
+    font-size: 0.65em;
+    font-weight: 400;
+
+}
+
+.container1 .progress h4{
+    position: absolute;
+    top: 62%;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 1;
+    font-weight: 500;
+    color: var(--clr);
+    text-transform: uppercase;
+}
+
+.container1 .progress::before
+{
+    content: '';
+    display: block;
+    height: 100%;
+    margin-left: 50%;
+    transform-origin: left;
+    border-radius: 0 100% 100% 0/50%;
+}
+.container1 .progress::after
+{
+    content: '';
+    position: absolute;
+    inset: 10px;
+    border-radius: 50%;
+    background: rgb(19, 19, 19);
+   
+}
+
+.container1 .progress::before
+{
+    background: var(--clr);
+    transform: rotate(calc(((var(--i) - 50) *0.01turn )));
+}
+
+/* value < 50% */
+
+.container1 .progress.less::before
+{
+    background: #9e9191;
+    transform: rotate(calc(((var(--i) - 0) *0.01turn )));
+}
+
+.bodymain
+{
+    margin-top: -100px;
+}
+
+
+/* contact me */
+.contact
+{
+   display: flex;
+   justify-items: center;
+   align-items: center;
+    min-height: 100vh;
+    background: rgb(0, 0, 0);
+   
+}
+
+
+.contain
+{
+position: relative;
+min-width: 1000px;
+min-height: 500px;
+display: flex;
+z-index: 1000;
+/* background: rgb(247, 247, 247); */
+/* background: white; */
+margin-left: 100px;
+
+}
+
+.contain .contactinfo
+{
+    position: absolute;
+    top: 40px;
+    width: 330px;
+    height: calc(100% - 80px);
+    background: rgb(9, 133, 96);
+    z-index: 1;
+    padding: 40px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    justify-content: space-between;
+    box-shadow: 0 20px 25px rgba(0,0,0,0.15);
+}
+
+.contain .contactinfo h2
+{
+    color: #fff;
+    font-weight: bolder;
+    font-size: 25px;
+    font-weight: 500;
+}
+
+.contain .contactinfo ul.info
+{
+    position: relative;
+    margin: 20px 0;
+}
+
+.contain .contactinfo ul.info li
+{
+    position: relative;
+    list-style: none;
+    display: flex;
+    margin: 20px 0;
+    cursor: pointer;
+    align-items: flex-start;
+}
+
+.contain .contactinfo ul.info li span:nth-child(2)
+{
+    color: #fff;
+    margin-left: 30px;
+    font-weight: 300;
+}
+
+.contain .contactinfo ul.connect{
+    position: relative;
+    display: flex;
+}
+
+/* .contacts
+{
+    
+    margin-top: 30%;
+    
+} */
+ 
+.contacts .follow
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  
+} 
+
+.follow .icon
+{
+font-size: 1.5rem;
+}
+
+
+
+
+.icon
+{
+    width: 30px;
+    height: 30px;
+   
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* .contactform h3{
+margin-top: -10px;
+} */
+
+form input, form textarea
+{
+    width: 80%;
+    border: 0;
+    outline: none;
+    background: #282828;
+    padding: 10px;
+    margin: 10px 0;
+    color: #fff;
+    font-size: 13px;
+    border-radius: 6px;
+}
+
+form button{
+    padding: 10px 40px;
+    font-size: 12px;
+    margin-top: 10px;
+    cursor: pointer;
+   border: none;
+   border-radius: 2px;
+    background-color: #098560;
+    color: #fff;
+}
+
+
+.contain .contactform
+{
+    position: absolute;
+    padding: 70px 50px;
+    padding-left: 250px;
+    margin-left: 150px;
+    width: calc(100% - 150px);
+    height: 100%;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 50px 50px rgba(0,0,0,0.25);
+}
+
+footer 
+
+{
+    background: rgb(53, 52, 52);; 
+}
+
+footer p{
+    text-align: center;
+    color: rgb(255, 251, 251);
+    font-size: small;
+   
+}
+
+
+
+
+
+
+
