@@ -500,45 +500,31 @@ footer p{
 
 @media (max-width: 600px)
 {   
-    /* nav{width: 100%;} */
-    nav .logo{width: 8%; margin-left: 3%; margin-top: 4%;}
-    nav ul{margin-right: 35%;}
-    nav ul li a{font-weight: bold; font-size: 10px; padding: 2%;}
-    .frontpage{height: 80vh; width: 100%;}
-    .home{width: 60%; margin-left: 8%;}
-    .home-content{width: 90%; margin-left: -5%;}
-    .home-content p{width: 250px;}
-    .home-content .name{font-size: 30px;}
-    .home-content h3{font-size: 12px; margin-bottom: 20px;}
-    .about{height: 100vh;}
-    .about-text{margin-top: 90%; margin-left: -95%; height: 240px; width: 100%;}
-    .about-text .para{margin: 1rem 0 1rem; margin-left: -25%; line-height: 23px; margin-top: -15%; width: 200px;}
-    .about-text h1{font-size: 20px;}
-    .about-text h2{font-size: 20px;}
-    .about-text .info{margin-left: -25%;font-size: 12px;}
-    .about .heading { width: 100%;}
-    .heading .abt{font-size: 30px; padding-top: 50px; margin-left: -170px;}
-    .heading .inv{display: none;}
-    .skill{height: 60vh;}
-    .heading_skill h2{font-size: 30px; margin-left: -50%;}
-    .heading_skill p{font-size: 14px; margin-left: 5%; width: 230px; display: none;}
+    nav .logo{width: 10%; margin-left: 5%; margin-top: 5%;}
+    nav ul{margin-right: 15%;}
+    nav ul li a{font-weight: bold; font-size: 12px; padding: 2%;}
+    .home{width: 60%; margin-left: 5%; margin-top: 30%;}
+    .home-content p{width: 300px;}
+    .home-content .name{font-size: 40px;}
+    .home-content h3{font-size: 14px; margin-bottom: 20px;}
+    .about-text{margin-top: 90%; margin-left: -93%; height: 240px;}
+    .about-text .para{margin: 1rem 0 1rem; margin-left: 5%; line-height: 23px; margin-top: -15%; width: 300px;}
+    .about-text .info{margin-left: 5%;}
     .about-img{width: 300px; padding-top: 100px; margin-left: 10%; }
-    .contact{height: 60vh;}
-    .about-img img{width: 60%; margin-left: 5%;}
+    .heading .abt{font-size: 40px; padding-top: 50px; margin-left: -100px;}
+    .heading .inv{display: none;}
+    .heading_skill p{ display: none;}
+    .container1 .progress{width: 105px; height: 105px;}
+    .container1 .progress h3,h4{font-size: 12px;}
+    .contain{width: 65px;}
+    .container1{padding-right: 7%; margin-top: 10%; margin-left: 5%;}
+    .contain .contactinfo{padding-top: 2%; margin-right: 0; margin-left: -6%;  width: 30%; margin-top: -5%;}
     .contain .contactform{display: none;}
-    .contain .contactinfo .cinfo{ margin-left: -15%; color: rgb(9, 133, 96); font-weight: bold; font-size: 30px; margin-top: -25%;}
-    .contacts .follow .icon{margin-left: -35%;}
+    .contain .contactinfo .cinfo{font-weight: bold; font-size: 35px; margin-top: 4%;}
     .contactinfo .info span{margin-left: -13%;}
-    .contactinfo .info .cont{ font-size: 16px;}
-    .contactinfo .info {margin-top: 10%;}
-    .contain{width: 55px;}
-    .container1 .progress h4{font-size: 10px;}
-    .contain .contactinfo{padding-top: 2%; margin-right: 0; margin-left: -6%;  width: 30%; margin-top: -5%; background-color: rgb(0, 0, 0);}
-    .heading{margin-left: 200px;}
-    footer p{font-size: 8px;}
-    .container1 .progress{width: 100px; height: 100px; border-radius: 50%;}
-    .container1 .progress h3,h4{font-size: 14px;}
-    .container1{padding-right: 20%; margin-top: -25%;}
+    .contactinfo .info { padding-top: 8%;}
+    footer p{font-size: 9px;}
+  
    
 
 } 
