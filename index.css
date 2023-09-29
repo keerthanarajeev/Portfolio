@@ -500,7 +500,7 @@ footer p{
 
 @media (max-width: 600px)
 {   
-    nav .logo{width: 10%; margin-left: 5%; margin-top: 5%;}
+    nav .logo{width: 15%; margin-left: 5%; margin-top: 5%;}
     nav ul{margin-right: 15%;}
     nav ul li a{font-weight: bold; font-size: 12px; padding: 2%;}
     .home{width: 60%; margin-left: 5%; margin-top: 30%;}
