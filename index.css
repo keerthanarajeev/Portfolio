@@ -5,8 +5,10 @@
 {
     margin: 0;
     padding: 0;
+    text-decoration: none;
     box-sizing: border-box;
     font-family: 'Inter', sans-serif;
+
     
 }
 
@@ -18,51 +20,44 @@
     background-repeat: no-repeat;
 
     height: 100vh;
-   
-}
-.container
-{
-    
-    width: 100%;
-    height: 100vh;
-     position: relative;
-     background-color: black;
-     
-    
-     
     
 }
-
-
-
-
 nav
 {
     
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+    width: 100%;
+    height: 80px;
     background-color: transparent;
-    z-index: 100;
     
-
 }
 nav .logo
 {
-    width: 150px;
+    width: 120px;
     margin-left: 8%;
 
 }
+
+nav ul
+{
+    float: right;
+    margin-right: 20px;
+
+}
+
 nav ul li
 {
     display: inline-block;
-    margin: 10px 30px;
+    line-height: 80px;
+    margin: 0px 5px;
+    list-style: none;
+    
 }
 
 nav ul li a{
     text-decoration: none;
     color: white;
     font-weight: bold;
+    padding: 7px 13px;
     
 }
 
@@ -72,15 +67,11 @@ nav ul li a:hover
     color: rgb(9, 133, 96);
 }
 
-
 .home-content
 {
     margin-left: 8%;
     margin-top: 13%;
     max-width: 600px;
-    
-
-
  
 }
 .home-content span
@@ -130,14 +121,24 @@ nav ul li a:hover
 background-color: rgb(6, 71, 49);
 }
 
+.menu-btn
+{
+    color: #098560;
+    font-size: 23px;
+    cursor: pointer;
+    margin-right: 5%;
+    display: none;
+}
+
+
+/* about section */
+
 
 .about
 {
    
-    /* background-color: rgb(0, 0, 0); */
     color: white;
     height: 100vh;
-    /* background-image: url('https://img.freepik.com/free-photo/modern-background-with-lines_1361-3533.jpg?size=626&ext=jpg&ga=GA1.1.1279480858.1694075682&semt=ais'); */
     background-size: cover;
     background-repeat: no-repeat;
     background-color: rgb(19, 19, 19);
@@ -149,46 +150,38 @@ background-color: rgb(6, 71, 49);
  {
     width: 60%;
     margin-left: 18%;
-  margin-top: -70px;
-  /* border: 3px solid rgb(6, 71, 49); */
+  margin-top: -35%;
  }
-
 
 .heading
 {
-margin-left: 607px;
-padding-top: 170px;
-
+    margin-left: 50%;
+    padding-top: 10%;
 }
 
 .heading h2
 {
     font-size: 40px;
     color: rgb(9, 133, 96) ;    
-
-    
     margin-top: -40px;
    
 }
 
 .heading h3
 {
-    font-size: 20px;
+    font-size: 18px;
     margin-top: 20px;
    
    
 }
 
-.about-text p{
-    line-height: 25px;
-    font-size: 15px;
-    color: rgb(218, 211, 211);
-}
+
 
 .about-content
 {
     display: grid;
     grid-template-columns: repeat(2,1fr);
+    padding-top: 10%;
 }
  
 
@@ -215,7 +208,14 @@ padding-top: 170px;
     
     margin: 1rem 0 1.4rem;
     margin-right: 100px;
+    line-height: 25px;
+    font-size: 15px;
+    color: rgb(218, 211, 211);
+    margin-top: -15%;
 }
+
+
+/* Skill section */
 
 
 .heading_skill
@@ -356,8 +356,6 @@ min-width: 1000px;
 min-height: 500px;
 display: flex;
 z-index: 1000;
-/* background: rgb(247, 247, 247); */
-/* background: white; */
 margin-left: 100px;
 
 }
@@ -414,12 +412,7 @@ margin-left: 100px;
     display: flex;
 }
 
-/* .contacts
-{
-    
-    margin-top: 30%;
-    
-} */
+
  
 .contacts .follow
 {
@@ -448,9 +441,7 @@ font-size: 1.5rem;
     justify-content: center;
 }
 
-/* .contactform h3{
-margin-top: -10px;
-} */
+
 
 form input, form textarea
 {
@@ -504,7 +495,50 @@ footer p{
 
 
 
+/* Media query------Responsive */
 
 
+@media (max-width: 600px)
+{   
+    /* nav{width: 100%;} */
+    nav .logo{width: 8%; margin-left: 3%; margin-top: 4%;}
+    nav ul{margin-right: 35%;}
+    nav ul li a{font-weight: bold; font-size: 10px; padding: 2%;}
+    .frontpage{height: 80vh; width: 100%;}
+    .home{width: 60%; margin-left: 8%;}
+    .home-content{width: 90%; margin-left: -5%;}
+    .home-content p{width: 250px;}
+    .home-content .name{font-size: 30px;}
+    .home-content h3{font-size: 12px; margin-bottom: 20px;}
+    .about{height: 100vh;}
+    .about-text{margin-top: 90%; margin-left: -95%; height: 240px; width: 100%;}
+    .about-text .para{margin: 1rem 0 1rem; margin-left: -25%; line-height: 23px; margin-top: -15%; width: 200px;}
+    .about-text h1{font-size: 20px;}
+    .about-text h2{font-size: 20px;}
+    .about-text .info{margin-left: -25%;font-size: 12px;}
+    .about .heading { width: 100%;}
+    .heading .abt{font-size: 30px; padding-top: 50px; margin-left: -170px;}
+    .heading .inv{display: none;}
+    .skill{height: 60vh;}
+    .heading_skill h2{font-size: 30px; margin-left: -50%;}
+    .heading_skill p{font-size: 14px; margin-left: 5%; width: 230px; display: none;}
+    .about-img{width: 300px; padding-top: 100px; margin-left: 10%; }
+    .contact{height: 60vh;}
+    .about-img img{width: 60%; margin-left: 5%;}
+    .contain .contactform{display: none;}
+    .contain .contactinfo .cinfo{ margin-left: -15%; color: rgb(9, 133, 96); font-weight: bold; font-size: 30px; margin-top: -25%;}
+    .contacts .follow .icon{margin-left: -35%;}
+    .contactinfo .info span{margin-left: -13%;}
+    .contactinfo .info .cont{ font-size: 16px;}
+    .contactinfo .info {margin-top: 10%;}
+    .contain{width: 55px;}
+    .container1 .progress h4{font-size: 10px;}
+    .contain .contactinfo{padding-top: 2%; margin-right: 0; margin-left: -6%;  width: 30%; margin-top: -5%; background-color: rgb(0, 0, 0);}
+    .heading{margin-left: 200px;}
+    footer p{font-size: 8px;}
+    .container1 .progress{width: 100px; height: 100px; border-radius: 50%;}
+    .container1 .progress h3,h4{font-size: 14px;}
+    .container1{padding-right: 20%; margin-top: -25%;}
+   
 
-
+} 

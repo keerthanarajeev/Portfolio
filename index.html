@@ -20,37 +20,39 @@
 
         <!-- Home Page -->
 
-        <div class="frontpage">
+        <div class="frontpage" id="frontpage">
 
             <nav>
+                <!-- <input type="checkbox" id="check">
+                <label for="check" class="checkbtn">
+                    <i class="fa-solid fa-bars"></i>
+
+                </label> -->
+
                 <img src="./image/IMG_8820.jpg" alt="no image" class="logo">
                 <ul>
-                    <li><a href="#home" class="current">HOME</a></li>
+                    <li><a href="#frontpage" class="current">HOME</a></li>
                     <li><a href="#about">ABOUT</a></li>
                     <li><a href="#skill">SKILLS</a></li>
                     <li><a href="#contact">CONTACT</a></li>
                 </ul>
+               
             </nav>
 
             <section id="home" class="home">
 
                 <div class="home-content">
                     <h3><span>Hi,</span> I am </h3>
-                    <h1>KEERTHANA <span>RAJEEV</span></h1>
+                    <h1 class="name">KEERTHANA <span>RAJEEV</span></h1>
                     <p>Welcome To My Official Portfolio Website. Here I showcase All Details And Skills In The Field Of Web
                         Development.
                     </p>
 
 
-                    <a href="./images/Keerthana-CV.pdf" download="./images/Keerthana-CV.pdf" class="button">Download
+                    <a href="./cv/KKERTHANA-CV.pdf" download="./images/Keerthana-CV.pdf" class="button">Download
                         CV</a>
 
-                    <div class="images">
-
-                        <!-- <img src="" alt="no Image" class="img"> -->
-
-
-                    </div>
+                   
                 </div>
 
             </section>
@@ -65,8 +67,8 @@
             <div class="heading">
 
 
-                <h2>About Me</h2>
-                <h3>Hi There! I'm Keerthana Rajeev</h3>
+                <h2 class="abt">About Me</h2>
+                <h3 class="inv">Hi There! I'm Keerthana Rajeev</h3>
 
 
             </div>
@@ -74,12 +76,16 @@
             <div class="about-content">
 
                 <div class="about-img">
-                    <img src="./image/about_me.png" alt="">
+                    <img src="./image/about_me.png" alt="" class="myimg">
                 </div>
 
                 <div class="about-text">
+                    <!-- <h2>About Me</h2>
+                <h3>Hi There! I'm Keerthana Rajeev</h3> -->
+                <br> 
 
-                    <p>A fresher with a Master's in Computer Science who wishes to equip myself with addition skills and looking for a challenging position where i can showcase my skills and contribute to the growth of the organization.  </p>
+
+                    <p class="para">A fresher with a Master's in Computer Science who wishes to equip myself with addition skills and looking for a challenging position where i can showcase my skills and contribute to the growth of the organization.  </p>
                     <br>
                     <div class="info">
 
@@ -163,22 +169,22 @@
 
                     <div>
 
-                        <h2>Contact Info</h2>
+                        <h2 class="cinfo">Contact Info</h2>
                         <ul class="info">
                             <li>
                                 <span><i class="fa-solid fa-location-dot"></i></span>
-                                <span>Sarovaram, Puthiyanirathu <br>
+                                <span class="cont">Sarovaram, Puthiyanirathu <br>
                                     Elathur, Calicut</span>
                             </li>
 
                             <li>
                                 <span><i class="fa-solid fa-envelope"></i></span>
-                                <span>keerthanarajeev111@gmail.com</span>
+                                <span class="cont">keerthanarajeev111@gmail.com</span>
                             </li>
 
                             <li>
                                 <span><i class="fa-solid fa-phone"></i></span>
-                                <span>7510184855</span>
+                                <span class="cont">7510184855</span>
                             </li>
 
                         </ul>
@@ -222,9 +228,9 @@
                     <h3>Send a Message</h3>
                     <form action="">
 
-                        <input type="text" name="Name" placeholder="Your name"><br> <br>
-                        <input type="email" name="email" placeholder="Your Email"><br> <br>
-                        <textarea name="messege" cols="30" rows="6" placeholder="Your Messege....."></textarea> <br><br>
+                        <input type="text" name="Name" placeholder="Your name" required><br> <br>
+                        <input type="email" name="email" placeholder="Your Email" required><br> <br>
+                        <textarea name="messege" cols="30" rows="6" placeholder="Your Messege....." required></textarea> <br><br>
                         <button type="submit"> Send <i class="fas fa-paper-plane"></i></button>
 
 
